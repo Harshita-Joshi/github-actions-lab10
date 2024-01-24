@@ -1,5 +1,5 @@
 name: Issues (Script Injection Example)
-on:
+'on':
   issues:
     types:
       - opened
@@ -16,3 +16,5 @@ jobs:
           else
             echo "Issue is not about a bug"
           fi
+
+          
